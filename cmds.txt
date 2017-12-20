@@ -9,3 +9,12 @@ git config --global user.name "qsgy"
 git config --global user.email 961390320@qq.com
 
 git checkout 版本号 //检出老版本
+
+-------------------------------
+1.确认依据commit
+2.在GitHub创建一个远程仓库
+3.添加远程仓库（安装GitHub提示信息）
+4.git remote add origin https://github.com/qsgy/LearnGit17_12_20.git//复制GitHub仓库中的代码
+5.git push -u origin master   //提交代码
+6.当修改完代码的时候，再次提交   git commit -m"描述"   
+提交到远程仓库  git push 
