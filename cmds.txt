@@ -11,6 +11,7 @@ git config --global user.email 961390320@qq.com
 git checkout 版本号 //检出老版本
 
 -------------------------------
+提交代码到远程仓库
 1.确认依据commit
 2.在GitHub创建一个远程仓库
 3.添加远程仓库（安装GitHub提示信息）
@@ -18,3 +19,12 @@ git checkout 版本号 //检出老版本
 5.git push -u origin master   //提交代码
 6.当修改完代码的时候，再次提交   git commit -m"描述"   
 提交到远程仓库  git push 
+
+-------------------------
+git的克隆和更新
+git clone 地址
+克隆后 ：git pull
+
+在克隆的项目做修改，再更新的时候会提示你修复这个改动。
+。。。。
+--------------------------
