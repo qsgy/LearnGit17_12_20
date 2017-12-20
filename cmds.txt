@@ -1,2 +1,11 @@
 git init //初始化仓库
 git status //查看文件状态
+git add .   //将所有文件添加到git管理中	
+git commit -m "描述" //将管理的文件添加到仓库中
+git log //查看仓库日志
+
+
+git config --global user.name "qsgy"
+git config --global user.email 961390320@qq.com
+
+git checkout 版本号 //检出老版本
